@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "TaskAssist.exe",
+    "description": "Windows95 style react-native todo-list app. See https://github.com/noahhorlacher/taskassist-exe",
     "slug": "taskassistexe",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,9 +23,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.noahhorlacher.taskassist",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.noahhorlacher.taskassist",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#008080"
