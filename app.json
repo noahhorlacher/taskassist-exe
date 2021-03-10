@@ -1,14 +1,19 @@
 {
   "expo": {
-    "name": "win95todo",
-    "slug": "win95todo",
+    "name": "TaskAssist.exe",
+    "slug": "taskassistexe",
     "version": "1.0.0",
     "orientation": "portrait",
+    "backgroundColor": "#008080",
+    "primaryColor": "#008080",
     "icon": "./assets/icon.png",
+    "androidNavigationBar": {
+      "visible": "sticky-immersive"
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#008080"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +27,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#008080"
       }
     },
     "web": {
